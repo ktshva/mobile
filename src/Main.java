@@ -9,21 +9,11 @@ public class Main {
             int bonus = money / threshold; // количество бонусных рублей
             System.out.println(finalbalance + " итоговый счет");
             System.out.println(bonus + " бонусных рублей");
-        }
-        else {
+        } else {
             int finalbalance = balance + money; // итоговый баланс после пополнения
             int bonus = 0; // количество бонусных рублей
             System.out.println(finalbalance + " итоговый счет");
             System.out.println(bonus + " бонусных рублей");
         }
-
-
-
-
-
-        // Условным оператором проверяете, превысила ли
-        // сумма пополнения порог, и для этих двух разных
-        // сценариев рассчитываете сумму бонуса и выводите
-        // на экран.
     }
 }
